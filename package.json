@@ -4,11 +4,8 @@
   "description": "Utility to communicate through a pipe",
   "main": "index.js",
   "directories": {
-    "test": "test"
   },
   "scripts": {
-    "start": "node js/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TurplePurtle",
   "license": "ISC"
