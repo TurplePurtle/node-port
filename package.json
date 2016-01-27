@@ -8,5 +8,9 @@
   "scripts": {
   },
   "author": "TurplePurtle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TurplePurtle/node-port.git"
+  },
   "license": "ISC"
 }
