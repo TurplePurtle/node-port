@@ -1,5 +1,5 @@
 {
-  "name": "node-port",
+  "name": "node-port-js",
   "version": "0.0.1",
   "description": "Utility to communicate through a pipe",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "TurplePurtle",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TurplePurtle/node-port.git"
+    "url": "https://github.com/TurplePurtle/node-port-js.git"
   },
   "license": "ISC"
 }
