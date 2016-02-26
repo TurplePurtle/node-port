@@ -3,12 +3,12 @@ const NodePort = require("./../index");
 const reader = new NodePort.Reader(process.stdin, N);
 const writer = new NodePort.Writer(process.stdout, N);
 
-reader.on("data", e => {
-  if (e.data === "HALT") {
+reader.on("data", str => {
+  if (str === "HALT") {
     writer.write("stopping");
     process.exit(0);
   }
-  var data = JSON.parse(e.data);
+  var data = JSON.parse(str);
   writer.write(`x was ${data.x}`);
 });
 

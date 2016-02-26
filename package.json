@@ -1,6 +1,6 @@
 {
   "name": "node-port-js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility to communicate through a pipe",
   "main": "index.js",
   "directories": {
